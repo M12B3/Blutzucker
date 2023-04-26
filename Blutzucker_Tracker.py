@@ -15,16 +15,6 @@ from fpdf import FPDF
 from datetime import date
 import datetime
 
-# Everything is accessible via the st.secrets dict:
-st.write("DB username:", st.secrets["db_username"])
-st.write("DB password:", st.secrets["db_password"])
-
-# And the root-level secrets are also accessible as environment variables:
-st.write(
-    "Has environment variables been set:",
-    os.environ["db_username"] == st.secrets["db_username"],
-)
-
 #Layouts und Container
 col1, col2 = st.columns(2)
 
