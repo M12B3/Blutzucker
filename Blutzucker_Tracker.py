@@ -15,11 +15,6 @@ from fpdf import FPDF
 from datetime import date
 import datetime
 
-# Everything is accessible via the st.secrets dict:
-
-st.write("DB username:", st.secrets["db_username"])
-st.write("DB password:", st.secrets["db_password"])
-
 #Layouts und Container
 col1, col2 = st.columns(2)
 
