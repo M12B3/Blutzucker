@@ -53,6 +53,7 @@ if choice == 'Werte erfassen':
             st.warning('Achtung: Der eingegebene Wert liegt ausserhalb des Referenzbereichs.', icon="🚨")
         
         # Füge den neuen Datensatz den vorhandenen Daten hinzu
+        data = list(data)
         data.append(datensatz)
         
         # Speichere die aktualisierten Daten in der JSON-Datei
