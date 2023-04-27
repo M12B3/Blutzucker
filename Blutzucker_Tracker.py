@@ -14,6 +14,7 @@ import os
 from fpdf import FPDF
 from datetime import date
 import datetime
+from jsonbin import load_key, save_key
 
 # -------- load secrets for jsonbin.io --------
 jsonbin_secrets = st.secrets["jsonbin"]
