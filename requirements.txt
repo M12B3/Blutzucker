@@ -2,3 +2,4 @@ pandas
 datetime
 altair
 fpdf
+jsonbin
