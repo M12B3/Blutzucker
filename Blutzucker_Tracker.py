@@ -15,6 +15,11 @@ from fpdf import FPDF
 from datetime import date
 import datetime
 
+# -------- load secrets for jsonbin.io --------
+jsonbin_secrets = st.secrets["jsonbin"]
+api_key = jsonbin_secrets["api_key"]
+bin_id = jsonbin_secrets["bin_id"]
+
 #Layouts und Container
 col1, col2 = st.columns(2)
 
