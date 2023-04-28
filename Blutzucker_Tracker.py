@@ -16,6 +16,7 @@ from datetime import date
 import datetime
 from jsonbin import load_key, save_key
 import streamlit_authenticator as stauth
+import yaml
 from yaml.loader import SafeLoader
 
 # -------- load secrets for jsonbin.io --------
