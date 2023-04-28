@@ -15,6 +15,7 @@ from fpdf import FPDF
 from datetime import date
 import datetime
 from jsonbin import load_key, save_key
+import streamlit_authenticator as stauth
 
 # -------- load secrets for jsonbin.io --------
 jsonbin_secrets = st.secrets["jsonbin"]
