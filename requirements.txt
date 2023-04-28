@@ -4,3 +4,4 @@ altair
 fpdf
 jsonbin
 streamlit_authenticator
+yaml.loader
