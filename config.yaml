@@ -3,11 +3,11 @@ credentials:
     michèle:
       email: bischmi4@students.zhaw.ch
       name: Michèle Bischof
-      password: abc # To be replaced with hashed password
+      password: 
     guest:
       name: Gast
       password: def # To be replaced with hashed password
 cookie:
   expiry_days: 30 # number of days until password is asked again
-  key: random_signature_key # Must be string
-  name: random_cookie_name
+  key: "32ojYU4OormZhyBL4aevv3zEGt62dQHv"
+  name: streamlitcookie
