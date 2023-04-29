@@ -39,10 +39,11 @@ fullname, authentication_status, username = authenticator.login('Login', 'main')
 
 if authentication_status == True:   # login successful
     authenticator.logout('Logout', 'main') # show logout button
-    if username == 'jami':
-        st.write(f'Herzlich Willkommen *{"Michèle und Janine"}*')
-    elif username == 'guest':
-        st.write(f'Herzlich Willkommen *{"Gast"}*')
+    if choice == 'Werte erfassen':
+        if username == 'jami':
+            st.write(f'Herzlich Willkommen *{"Michèle und Janine"}*')
+        elif username == 'guest':
+            st.write(f'Herzlich Willkommen *{"Gast"}*')
 elif authentication_status == False:
     st.error('Username/password is incorrect')
     st.stop()
