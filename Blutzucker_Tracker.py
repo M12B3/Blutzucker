@@ -38,7 +38,11 @@ authenticator = stauth.Authenticate(
 fullname, authentication_status, username = authenticator.login('Login', 'main')
 
 if authentication_status == True:   # login successful
-    authenticator.logout('Logout', 'main')   # show logout button
+    authenticator.logout('Logout', 'main') # show logout button
+    if username == 'jami':
+        st.write(f'Welcome *{name}*')
+    elif username == 'guest':
+        st.write(f'Welcome *{name}*')
 elif authentication_status == False:
     st.error('Username/password is incorrect')
     st.stop()
