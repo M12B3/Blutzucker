@@ -3,10 +3,10 @@ credentials:
     michèle:
       email: bischmi4@students.zhaw.ch
       name: Michèle Bischof
-      password: 
+      password: $2b$12$RPZ0pm2cYK7cnm/iVsWzE.OmCxpFwksrafNqLbalZzqVZKqSRfwJm
     guest:
       name: Gast
-      password: def # To be replaced with hashed password
+      password: $2b$12$0zPdsF4KBSKad4FYFx5J/OuD7vGH4kWiajx702J/XlZ36d1/OrCb # To be replaced with hashed password
 cookie:
   expiry_days: 30 # number of days until password is asked again
   key: "32ojYU4OormZhyBL4aevv3zEGt62dQHv"
