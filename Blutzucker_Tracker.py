@@ -51,7 +51,7 @@ elif authentication_status == None:
     st.stop()
     
 #Layouts und Container
-col1, col2, col3 = st.columns(3)
+col1, col2 = st.columns(2)
 
 with col1:
     #Titel der App
@@ -60,7 +60,6 @@ with col1:
 with col2:
     st.image('Blutzucker.jpg', width=220) 
 
-with col3:
     st.warning ("Bitte speichern Sie einen ersten Wert ab damit die Fehlermeldung bei (Werte löschen) verschwindet") 
 
 # Erstelle das Hauptmenü
