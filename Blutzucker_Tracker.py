@@ -60,8 +60,6 @@ with col1:
 with col2:
     st.image('Blutzucker.jpg', width=220) 
 
-st.warning ("Bitte speichern Sie einen ersten Wert ab damit die Fehlermeldung bei (Werte löschen) verschwindet") 
-
 # Erstelle das Hauptmenü
 menu = ['Werte erfassen', 'Werte löschen', 'Archiv', 'Persönliche Daten']
 choice = st.sidebar.selectbox('Menü', menu)
@@ -69,6 +67,7 @@ choice = st.sidebar.selectbox('Menü', menu)
 # Wenn das Menü "Werte erfassen" ausgewählt ist
 if choice == 'Werte erfassen':
     st.subheader("Werte erfassen")
+    st.warning ("Bitte speichern Sie einen ersten Wert ab damit die Fehlermeldung bei (Werte löschen) verschwindet") 
     # Erstelle die Eingabefelder für Datum, Uhrzeit und Blutzuckerwert
     datum = st.date_input('Datum')
     uhrzeit = st.time_input('Uhrzeit')
