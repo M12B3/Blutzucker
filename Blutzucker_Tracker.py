@@ -61,7 +61,7 @@ with col2:
     st.image('Blutzucker.jpg', width=220) 
 
 with col3:
-    st.warning ("Bitte speichern Sie einen ersten Wert ab damit die Fehlermeldung bei (Werte löschen) verschwindet")
+    st.warning ("Bitte speichern Sie einen ersten Wert ab damit die Fehlermeldung bei (Werte löschen) verschwindet") 
 
 # Erstelle das Hauptmenü
 menu = ['Werte erfassen', 'Werte löschen', 'Archiv', 'Persönliche Daten']
