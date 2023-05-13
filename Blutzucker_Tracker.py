@@ -42,7 +42,7 @@ if authentication_status == True:   # login successful
     if username == 'jami':
         st.write(f' *{"Michèle und Janine"}*')
     elif username == 'Nutzer 1':
-        st.write(f' *{"Nutzer 1"}*')
+        st.write(f' *{"Nutzer"}*')
 elif authentication_status == False:
     st.error('Username/password is incorrect')
     st.stop()
