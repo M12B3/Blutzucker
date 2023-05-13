@@ -41,8 +41,8 @@ if authentication_status == True:   # login successful
     authenticator.logout('Logout', 'main') # show logout button
     if username == 'jami':
         st.write(f' *{"Michèle und Janine"}*')
-    elif username == 'guest':
-        st.write(f' *{"Gast"}*')
+    elif username == 'Nutzer 1':
+        st.write(f' *{"Nutzer 1"}*')
 elif authentication_status == False:
     st.error('Username/password is incorrect')
     st.stop()
